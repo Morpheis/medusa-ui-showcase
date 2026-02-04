@@ -1,1 +1,49 @@
 @import "tailwindcss";
+
+/* Medusa UI Design Tokens — light mode defaults */
+@theme {
+  /* Background colors */
+  --color-ui-bg-base: #ffffff;
+  --color-ui-bg-subtle: #f8f9fa;
+  --color-ui-bg-field: #ffffff;
+  --color-ui-bg-field-hover: #f8f9fa;
+  --color-ui-bg-base-hover: #f1f3f5;
+  --color-ui-bg-component: #f1f3f5;
+  --color-ui-bg-switch-off: #d1d5db;
+  --color-ui-bg-interactive: #6366f1;
+  --color-ui-bg-overlay: rgba(17, 24, 39, 0.4);
+  --color-ui-bg-disabled: #f3f4f6;
+  --color-ui-bg-highlight: #eef2ff;
+  --color-ui-bg-base-pressed: #e5e7eb;
+
+  /* Foreground / text colors */
+  --color-ui-fg-base: #111827;
+  --color-ui-fg-subtle: #6b7280;
+  --color-ui-fg-muted: #9ca3af;
+  --color-ui-fg-disabled: #d1d5db;
+  --color-ui-fg-on-color: #ffffff;
+  --color-ui-fg-interactive: #6366f1;
+  --color-ui-fg-interactive-hover: #4f46e5;
+  --color-ui-fg-error: #ef4444;
+  --color-ui-fg-on-inverted: #ffffff;
+
+  /* Border colors */
+  --color-ui-border-base: #e5e7eb;
+  --color-ui-border-strong: #d1d5db;
+  --color-ui-border-interactive: #6366f1;
+  --color-ui-border-error: #ef4444;
+  --color-ui-border-danger: #ef4444;
+  --color-ui-border-transparent: transparent;
+
+  /* Tag colors */
+  --color-ui-tag-neutral-bg: #f3f4f6;
+  --color-ui-tag-neutral-text: #374151;
+  --color-ui-tag-neutral-icon: #6b7280;
+  --color-ui-tag-neutral-border: #e5e7eb;
+
+  /* Shadows (card elevation) */
+  --shadow-elevation-card-rest: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  --shadow-elevation-card-hover: 0px 2px 4px 0px rgba(0, 0, 0, 0.06), 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  --shadow-borders-base: 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  --shadow-borders-interactive-with-active: 0px 0px 0px 1px #6366f1, 0px 0px 0px 3px rgba(99, 102, 241, 0.25);
+}
